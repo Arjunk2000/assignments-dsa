@@ -1,0 +1,104 @@
+wap to print odd numers from 1 to 10
+package com.packages;
+import java.util.Scanner;
+public class Main 
+{  
+public static void main(String args[])   
+{  
+int number=10;  
+System.out.print("List of odd numbers from 1 to "+number+": ");  
+for (int i=1; i<=number; i++)   
+{  
+
+if (i%2!=0)   
+{  
+System.out.print(i + " ");  
+}  
+}  
+}  
+}  
+
+wap to print all the numbers divisible by 11 in from 1 to 50 in java
+
+package com.packages;
+import java.util.Scanner;
+public class Exercise50 {
+    	public static void main(String args[]) {
+		System.out.println("\nDivided by 11: ");		
+		for (int i=1; i<50; i++) {
+			if (i%11==0) 
+			System.out.print(i +", ");		
+      }
+      }
+      }
+      
+      
+      
+ wap to print highest number from the given numbers are 10,20,30 in java
+		import java.util.Scanner;
+public class Main {
+
+    
+  public static void main(String[] args) {
+  Scanner in = new Scanner(System.in);
+   
+  System.out.print("Input the 1st number: ");
+  int num1 = in.nextInt();
+   
+  System.out.print("Input the 2nd number: ");
+  int num2 = in.nextInt();
+   
+  System.out.print("Input the 3rd number: ");
+  int num3 = in.nextInt();
+   
+   
+  if (num1 > num2)
+   if (num1 > num3)
+    System.out.println("The greatest: " + num1);
+   
+  if (num2 > num1)
+   if (num2 > num3)
+    System.out.println("The greatest: " + num2);
+   
+  if (num3 > num1)
+   if (num3 > num2)
+    System.out.println("The greatest: " + num3);
+ }
+}
+
+
+
+wap to swap two numbers in java
+import java.util.*; 
+import java.util.Scanner;
+class Swap_With {  
+    public static void main(String[] args) {  
+       int x, y, t;// x and y are to swap   
+       Scanner sc = new Scanner(System.in);  
+       System.out.println("Enter the value of X and Y");  
+       x = sc.nextInt();  
+       y = sc.nextInt();  
+       System.out.println("before swapping numbers: "+x +"  "+ y);  
+       /*swapping */  
+       t = x;  
+       x = y;  
+       y = t;  
+       System.out.println("After swapping: "+x +"   " + y);  
+       System.out.println( );  
+    }    
+}  
+
+wap to print pass if given marks is greater than 50 in java
+packages com.packages;
+import java.util.Scanner;
+public class TestClass {
+  public static void main(String[] args) {
+    int totalMarks=48;
+    if(totalMarks>50){
+      System.out.print("You have passed the exam !!");
+    }
+    else {
+      System.out.print("You have failed the exam !!");
+    }
+  }
+}
