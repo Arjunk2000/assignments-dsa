@@ -1,0 +1,89 @@
+wap to print your name stored in variable.
+package com.interview;
+public class Main {
+    public static void main(String args[]) {
+       String name = "ARJUN ";
+        System.out.print("helo0"+" "+name);
+        }
+    }
+    
+    WAP a program to overload a method to calculate volume and square.
+    package com.interview;
+class Main{
+    int volume(int side)
+    {
+        return side * side * side;
+    }
+    int volume(int length, int breadth, int height)
+    {
+        return length*breadth*height;
+    }
+    double volume(int radius, int height)
+    { return 3.14 * (radius * radius)* height / 3;
+    }
+    public static void main(String[] args)
+    {
+        Main oe = new Main();
+        System.out.println("Volume of square " +oe.volume(10));
+        System.out.println("Volume of Rectangular  " +oe.volume(10,12,30));
+        System.out.println("Volume of Cone "+oe.volume(5,10));
+    } }
+    
+    wap to return boolean value from method in java
+    public class BooleanEqualsExample1 {  
+    public static void main(String[] args) {  
+        Boolean b1 = new Boolean(true);  
+        Boolean b2 = new Boolean(false);  
+        // method will give the result of equals method on b1,b2 to b3  
+         if(b1.equals(b2)){  
+             System.out.println("equals() method returns true");  
+         }  
+         else{  
+             System.out.println("equals() method returns false");  
+         }  
+    }  
+}  
+
+
+wap to store float value in a method and print it in java
+ package com.interview;
+public class A {
+ 
+    public static void main(String[] args) {
+         
+       
+        float n1 = 10.89f;
+        float n2 = 7.43f;
+        float n3;
+       
+        n3 = n1*n2;
+         
+        
+        System.out.println("The result of n1 x n2 is: " +n3);
+    }
+ 
+}
+
+wap to print sum using one method and difference using another method from main() methodin java
+ package com.interview;
+public class SumOfNumbers1  
+{  
+public static void main(String args[])   
+{  
+int n1 = 225, n2 = 115, sum;  
+sum = n1 + n2;  
+System.out.println("The sum of numbers is: "+sum);  
+}  
+}
+
+package com.interview;
+public class diffOfNumbers1  
+{  
+public static void main(String args[])   
+{  
+int n1 = 225, n2 = 115, diff;  
+sum = n1 - n2;  
+System.out.println("The diff of numbers is: "+diff);  
+}  
+}  
+
